@@ -1,0 +1,29 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+/* header css */
+.header-seg {
+  border-bottom: 10px solid gray;
+}
+
+/* content css */
+.portfolio-image {
+  float: left;
+  height: 200px;
+  padding-right: 24px;
+  width: 100px;
+}
+.section-c {
+  max-width: 800px;
+}
+.section-m {
+  display: flex;
+  flex-grow: 1;
+  justify-content: center;
+}
+
+.button {
+  justify-content: space-evenly;
+}
